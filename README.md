@@ -9,7 +9,7 @@ This is my second version from this (project)[https://github.com/igoreineck/atm-
 ## Checklist
 
 ### User:
-  [] Can create an account (name, age, cpf, password, balance)
+  [x] Can create an account (name, age, cpf, password, balance)
   [] Can edit his account (name, age, password (only))
   [] Can remove his account?
   [] Can check account info
