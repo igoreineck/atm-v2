@@ -12,7 +12,7 @@ This is my second version from this [project](https://github.com/igoreineck/atm-
   - [x] Can create an account (name, age, cpf, password, balance)
   - [ ] Can edit his account (name, age, password (only))
   - [ ] Can remove his account?
-  - [ ] Can check account info
+  - [ ] Can check account info (doing)
   - [ ] Can withdraw money
   - [ ] Can deposit money
   - [ ] Can transfer money

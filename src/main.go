@@ -1,6 +1,10 @@
 package main
 
-import "github.com/igoreineck/atm-v2/src/account"
+import (
+	"fmt"
+
+	"github.com/igoreineck/atm-v2/src/account"
+)
 
 func main() {
 	// printf("DIGITE UMA DAS OPÇÕES ABAIXO: \n");
@@ -11,5 +15,9 @@ func main() {
 	// printf("Digite 4 - Para Sair do sistema.\n");
 	// printf("-------------------------------------------------------\n");
 
-	account.CreateAccount("Igor", "1234567", 12, "123")
+	// account.CreateAccount("Igor", "1234567", 12, "123")
+	accounts := account.ListDir("data/accounts/")
+	for _, account := range accounts {
+		fmt.Printf(account)
+	}
 }
